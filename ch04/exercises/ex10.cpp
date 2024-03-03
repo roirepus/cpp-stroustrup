@@ -4,6 +4,8 @@ using namespace std;
 int main(int argc, char *argv[]) {
 
   cout << "press c to continue q to quit ";
+  string s;
+
   char ans{};
   cin >> ans;
   vector<string> v{"stone", "paper", "scissors"};
@@ -12,8 +14,6 @@ int main(int argc, char *argv[]) {
 
     int myChoice = (rand() % 3);
     cout << "choose your option(I've mine ready!): ";
-
-    string s;
 
     cin >> s;
     int chosen;
